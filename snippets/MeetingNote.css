@@ -1,0 +1,37 @@
+/* Base styling for the meeting notes in dark mode */
+.MeetingNotes {
+    background-color: #1e2124; /* Darker background suitable for dark themes */
+    border-left: 8px solid #4a90e2; /* Brighter blue left border for visual distinction */
+    padding: 15px; /* Padding around the text */
+    margin: 10px 0; /* Vertical spacing between elements */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Stronger shadow for depth in dark mode */
+    border-radius: 5px; /* Rounded corners for a modern appearance */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clear, readable font */
+    color: #cdd6f4; /* Light grey text color for better readability */
+}
+
+/* Styling for headers within the meeting notes */
+.MeetingNotes h1, .MeetingNotes h2, .MeetingNotes h3 {
+    color: #8be9fd; /* Light blue color for headers to stand out in dark mode */
+    border-bottom: 1px solid #6272a4; /* Subtle purple line for separation */
+    padding-bottom: 4px; /* Space under the text */
+}
+
+/* Enhanced list styles for clarity */
+.MeetingNotes ul, .MeetingNotes ol {
+    padding-left: 20px; /* Space for nested lists */
+    margin-top: 5px; /* Top margin for list separation */
+}
+
+/* Styling for list items for readability */
+.MeetingNotes li {
+    margin-bottom: 5px; /* Space between list items */
+    line-height: 1.6; /* Increased line height */
+    color: #f8f8f2; /* Light color for list item text */
+}
+
+/* Link styling for easy navigation */
+.MeetingNotes a {
+    color: #ff79c6; /* Bright pink color for links to stand out */
+    text-decoration: underline; /* Underline to highlight links */
+}

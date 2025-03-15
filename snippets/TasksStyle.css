@@ -1,0 +1,13 @@
+/* CSS for de-emphasizing backlinks in task lists for dark mode with a custom color */
+.tasks-backlink {
+    font-size: 0.8em; /* Adjusted for better readability */
+    opacity: 0.75;    /* Good visibility on dark backgrounds */
+    color: #4a90e2;   /* Example: Soft blue, less harsh than purple */
+    filter: grayscale(30%); /* Maintain some color but subdued */
+}
+
+/* CSS for styling specific links within tasks to a vibrant blue color */
+.task-list-item a {
+    color: #007BFF !important; /* Vibrant blue, using a common blue hex code */
+    font-size: inherit; /* Ensures that the font size matches the surrounding text */
+}

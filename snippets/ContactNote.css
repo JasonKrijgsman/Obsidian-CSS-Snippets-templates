@@ -1,0 +1,42 @@
+/* Contact Note Card Style */
+/* Base styling for the contact card in dark theme */
+.ContactNote {
+    background-color: #2b303b; /* Dark background suitable for dark themes */
+    border-left: 5px solid #6272a4; /* Subdued blue left border for a thematic highlight */
+    padding: 20px; /* Ample padding for a spacious look */
+    margin: 10px 0; /* Vertical spacing between elements */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Darker shadow for depth in dark mode */
+    border-radius: 10px; /* Rounded corners for a modern appearance */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, readable font */
+    color: #c0c5ce; /* Light gray text color for better readability */
+}
+
+/* Styling for headers within the contact note */
+.ContactNote h1, .ContactNote h2, .ContactNote h3 {
+    color: #8be9fd; /* Bright blue color for headers to stand out in dark mode */
+    border-bottom: 1px solid #44475a; /* Dark underline for a clean separation */
+    padding-bottom: 5px; /* Space under the text */
+}
+
+/* Paragraph and detail styling within the note */
+.ContactNote p, .ContactNote .details {
+    font-size: 0.95em; /* Slightly smaller font size */
+    line-height: 1.6; /* Increased line height for readability */
+}
+
+/* List styling for organized appearance */
+.ContactNote ul {
+    list-style-type: none; /* No bullets for a cleaner look */
+    padding: 0;
+}
+
+.ContactNote li {
+    padding-left: 20px; /* Indent items for clarity */
+    text-indent: -20px;
+}
+
+/* Link styling */
+.ContactNote a {
+    color: #50fa7b; /* Vibrant green color for links to stand out */
+    text-decoration: none; /* No underline to keep it clean */
+}
